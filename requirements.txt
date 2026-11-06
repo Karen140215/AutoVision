@@ -1,0 +1,7 @@
+# Versiones probadas con Python 3.10 (entorno py310_prueba)
+tensorflow==2.21.0
+keras==3.12.4
+opencv-contrib-python==5.0.0.93
+numpy==2.2.6
+matplotlib==3.10.9
+scikit-learn==1.7.2
