@@ -2,7 +2,7 @@
 
 Detección de botellas PET sin tapa mediante un autoencoder convolucional y visión artificial.
 
-Software desarrollado en el proyecto CTeI_2026_13, «Sistema supervisor de anomalías en el proceso de envasado de botellas en una línea de producción mediante visión artificial», del semillero de investigación TURING, Grupo de Investigación en Aplicaciones Mecatrónicas (GRAM), Facultad de Ingeniería Mecatrónica, Universidad Santo Tomás, Seccional Bucaramanga.
+Software desarrollado en el semillero de investigación TURING, Grupo de Investigación en Aplicaciones Mecatrónicas (GRAM), Facultad de Ingeniería Mecatrónica, Universidad Santo Tomás, Seccional Bucaramanga.
 
 ## Autores
 
@@ -117,4 +117,4 @@ Evaluación con 120 imágenes con tapa y 400 sin tapa: 118 verdaderos negativos,
 
 ## Derechos
 
-Este software es resultado de un proyecto de investigación de la Universidad Santo Tomás, Seccional Bucaramanga. Todos los derechos reservados. Queda prohibida su reproducción total o parcial sin autorización de sus titulares.
+Este software es resultado del semillero de investigación TURING de la Universidad Santo Tomás, Seccional Bucaramanga. Todos los derechos reservados. Queda prohibida su reproducción total o parcial sin autorización de sus titulares.
