@@ -1,4 +1,4 @@
-# BottleDetector v1.0
+# AutoVision v1.0
 
 Detección de botellas PET sin tapa mediante un autoencoder convolucional y visión artificial.
 
@@ -12,6 +12,16 @@ Software desarrollado en el proyecto CTeI_2026_13, «Sistema supervisor de anoma
 - Edward Alexander Espinel Guauque
 - Pablo Alexander Hernández Achagua
 - Oscar Fernando Becerra Angarita (docente asesor)
+
+## Descargar la versión ejecutable para Windows
+
+No requiere instalar Python ni Anaconda.
+
+1. Descargar `AutoVision_v1.0_Windows.zip` desde la sección [Releases](https://github.com/Karen140215/AutoVision/releases/latest) (cerca de 470 MB).
+2. Hacer clic derecho sobre el archivo, elegir «Extraer todo» y abrir `AutoVision.exe`.
+3. Elegir «Video de prueba» o «Cámara».
+
+El programa no tiene firma digital, por lo que Windows puede mostrar «Windows protegió su PC». En ese caso se elige «Más información» y luego «Ejecutar de todas formas». El manual de usuario de la versión ejecutable también está en la sección Releases.
 
 ## Cómo funciona
 
@@ -33,6 +43,7 @@ El autoencoder se entrenó solo con imágenes de botellas con tapa. Cada imagen 
 | `resultados/` | Gráficas, registro de entrenamiento y video de resultado |
 | `graficos_modelo/` | Gráficas explicativas del modelo |
 | `requirements.txt` | Librerías y versiones probadas |
+| `ejecutable/` | Código de la versión ejecutable (`AutoVision.py`) y archivo para generarla con PyInstaller (`AutoVision.spec`) |
 
 ## Instalación
 
@@ -55,7 +66,7 @@ pip install -r requirements.txt
 4. Ubicar la botella dentro del rectángulo amarillo y leer el estado.
 5. Hacer clic en la ventana y presionar `q` o `ESC` para salir.
 
-El procedimiento completo de este programa está en el manual de usuario de BottleDetector v1.0.
+El procedimiento completo de este programa está en el manual de usuario de AutoVision v1.0.
 
 ### Reentrenar el modelo
 
