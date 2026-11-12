@@ -66,7 +66,7 @@ pip install -r requirements.txt
 4. Ubicar la botella dentro del rectángulo amarillo y leer el estado.
 5. Hacer clic en la ventana y presionar `q` o `ESC` para salir.
 
-El procedimiento completo de este programa está en el manual de usuario de AutoVision v1.0.
+El manual de usuario de AutoVision v1.0, publicado en la sección Releases, describe la versión ejecutable.
 
 ### Usar AutoVision en una Raspberry Pi
 
