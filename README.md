@@ -68,6 +68,23 @@ pip install -r requirements.txt
 
 El procedimiento completo de este programa está en el manual de usuario de AutoVision v1.0.
 
+### Usar AutoVision en una Raspberry Pi
+
+`AutoVision.exe` solo funciona en Windows. En una Raspberry Pi 4 (4 GB o más) o Pi 5 con Raspberry Pi OS de 64 bits, monitor y cámara USB, se ejecuta el código en Python:
+
+```bash
+sudo apt update
+sudo apt install -y git python3-venv python3-tk
+git clone https://github.com/Karen140215/AutoVision.git
+cd AutoVision
+python3 -m venv venv
+source venv/bin/activate
+pip install tensorflow opencv-python pillow numpy
+python3 ejecutable/AutoVision.py
+```
+
+Se abre la misma ventana que en Windows, con el video de prueba y las cámaras conectadas. Para las veces siguientes basta con `cd AutoVision`, `source venv/bin/activate` y `python3 ejecutable/AutoVision.py`. También se puede iniciar directamente con `--video` o `--camara 0`. No se usa `requirements.txt`, porque sus versiones son las probadas en Windows con Python 3.10.
+
 ### Reentrenar el modelo
 
 | Paso | Programa | Resultado |
